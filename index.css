@@ -1,1 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Lato:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&display=swap");
+
+
+.header-page{
+ background-image: url("./images/space-planet.jpg");
+ background-repeat: no-repeat;
+ width: auto;
+ height: auto;
+}
+.about{
+    display: none;
+}
