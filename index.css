@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Lato:wght@700;900&family=Poppins:wght@200&family=Roboto:wght@300&display=swap");
 
 body {
+    /* display: none; */
   color: rgb(51, 51, 51);
 }
 
@@ -224,6 +225,145 @@ body {
   height: 7.225em;
 }
 
-.about {
-  display: none;
+.about{
+    background-color: rgb(255, 255, 255);
 }
+.header-pag {
+    background-image: url("./images/mobile_intro_bg.png");
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+  }
+  
+  .header-pag > img {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .header-pag > div {
+    position: relative;
+    left: 2%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .hed-2>h2 {
+    width: 95%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: rgb(239, 81, 60);
+  }
+  
+  .hed-2 > h1 {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 1000;
+    font-size: 40px;
+    color: rgb(190, 79, 35);
+  }
+  
+  .conf2 {
+    width: 95%;
+    position: relative;
+    border: 4px solid rgb(247, 247, 248);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    text-align: center;
+    left: 5%;
+  }
+  
+  .conf2 > p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    word-break: keep-all;
+    position: relative;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .header-pag>p,h4{
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  .header-pag>h4{
+    padding-top: 0px;
+    padding-bottom: 35px;
+  }
+  .logo{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+  .logo>h2{
+    width: 80%;
+    position: relative;
+    left: 10%;
+  }
+  .logo > img {
+    width: 7%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logo>p{
+    width: 90%;
+    position: relative;
+    left: 5%;
+    padding-bottom: 30px;
+  }
+  .logo2{
+    width: 95%;
+    position: relative;
+    border: 4px solid rgb(247, 247, 248);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    text-align: center;
+    left: 2%;
+    padding: 5px;
+  }
+  #logo{
+    margin: 10px;
+    width: 30%;
+  }
+  .past{
+    margin-top: 40px;
+    padding-top: 30px;
+    text-align: center;
+    border: 4px solid rgb(247, 247, 248);
+    background-color: rgb(255, 255, 255);
+  }
+  .past>img{
+    width: 7%;
+  }
+  .past>h2{
+    font-size: 28px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 600;
+  }
+  .past>p{
+    font-family: 'Lato',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+    padding-top: 10px;
+    position: relative;
+    left: 5%;
+  }
+  .pss1{
+    background-image: url("./images/space-sumit-2.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 80%;
+  }
+  .pss2{
+    background-image: url("./images/Space_Summit_2022_pillars.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 80%;
+  }
