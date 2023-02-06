@@ -1,12 +1,229 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Lato:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Lato:wght@700;900&family=Poppins:wght@200&family=Roboto:wght@300&display=swap");
 
-
-.header-page{
- background-image: url("./images/space-planet.jpg");
- background-repeat: no-repeat;
- width: auto;
- height: auto;
+body {
+  color: rgb(51, 51, 51);
 }
-.about{
-    display: none;
+
+.home {
+  width: 100%;
+  height: auto;
+}
+
+.header-page {
+  background-image: url("./images/mobile_intro_bg.png");
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+}
+
+.header-page > img {
+  width: 120px;
+  height: 120px;
+}
+
+.header-page > div {
+  position: relative;
+  left: 5%;
+  margin-top: 20px;
+}
+
+.hed > h2 {
+  width: 95%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  color: rgb(239, 81, 60);
+}
+
+.hed > h1 {
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 1000;
+  font-size: 40px;
+  color: rgb(190, 79, 35);
+}
+
+.conf {
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(247, 247, 248);
+  box-sizing: border-box;
+}
+
+.conf > p {
+  color: rgb(51, 51, 51);
+  word-break: keep-all;
+  position: relative;
+  margin: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dat > h2 {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(87, 87, 87);
+}
+
+.dat > p {
+  font-family: 'Lato', sans-serif;
+}
+
+.main-program {
+  background-image: url("./images/pattern_bg.png");
+  background-repeat: repeat;
+  background-color: rgb(39, 42, 50);
+  margin-top: 92px;
+  width: 100%;
+  height: auto;
+}
+
+.main-program > h1 {
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  padding-top: 40px;
+  position: relative;
+  text-align: center;
+  font-size: 24px;
+}
+
+.main-program > img {
+  width: 7%;
+  position: relative;
+  left: 45%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.img-main {
+  vertical-align: middle;
+  display: inline-block;
+  height: 5.225em;
+  padding: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 96%;
+  position: relative;
+  left: 2%;
+  right: 2%;
+}
+
+.car {
+  display: grid;
+  grid-template-columns: 20% 26% 54%;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  vertical-align: middle;
+  background: rgba(255, 255, 255, 0.1);
+  height: auto;
+}
+
+.car > h3 {
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: rgb(239, 81, 60);
+}
+
+.car > p {
+  word-break: keep-all;
+  color: rgb(255, 255, 255);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.913em;
+  padding-top: 20px;
+  overflow: auto;
+  height: auto;
+}
+
+.hed9 {
+  height: 90px;
+  width: 80%;
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgb(239, 81, 60);
+  position: relative;
+  bottom: 50px;
+  left: 10%;
+}
+
+.hed9 > h3 {
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.partners {
+  background-color: rgb(87, 87, 87);
+  margin-top: 20px;
+}
+
+.partners > h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 24px;
+}
+
+.partners > ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-family: "Lato", sans-serif;
+  list-style: none;
+  gap: 20px;
+  text-align: center;
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  position: relative;
+  left: 10%;
+}
+
+.partners > ul > li {
+  color: black;
+  font-size: 27px;
+}
+
+.partners > img {
+  width: 10%;
+  position: relative;
+  left: 45%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  width: 90%;
+  position: relative;
+  left: 7%;
+}
+
+.footer > p {
+  font-family: "Lato", sans-serif;
+  position: relative;
+  top: 4.225em;
+}
+
+.footer > img {
+  height: 7.225em;
+}
+
+.about {
+  display: none;
 }
