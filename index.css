@@ -1,10 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Lato:wght@700;900&family=Poppins:wght@200&family=Roboto:wght@300&display=swap");
 
-body {
-    /* display: none; */
-  color: rgb(51, 51, 51);
+nav>span,.link-bar{
+  display: none;
 }
 
+.menu-line{
+  margin: 5px;
+  position: fixed;
+  background: rgb(240, 243, 243);
+  z-index: 2000;
+  width: 50%;
+  height: auto;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+.menu-line.active{
+  margin: 5px;
+  position: fixed;
+  background: rgb(240, 243, 243);
+  z-index: 2000;
+  width: 50%;
+  height: auto;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+.menu-line>img{
+  padding: 20px;
+  position: relative;
+  left: 60%;
+}
+.menu-br{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.menu-b>a{
+  background-color: rgb(138, 125, 125);
+  width: 90%;
+  height: 40px;
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(255, 249, 249);
+  position: relative;
+}
+
+body {
+  /* display: none; */
+color: rgb(51, 51, 51);
+}
+.menu-bar>nav>img{
+  display: none;
+}
 .home {
   width: 100%;
   height: auto;
@@ -366,4 +414,145 @@ body {
     background-repeat: no-repeat;
     height: 200px;
     width: 80%;
+  }
+
+  @media (min-width: 768px) {
+    body{
+      margin: 0px;
+      padding: 0px;
+      color: rgb(51, 51, 51);
+    }
+    .link-bar{
+      display: block;
+      height: 36px;
+      background-color: rgb(62, 62, 62);
+      text-align: right;
+      line-height: 36px;
+      vertical-align: middle;
+    }
+    .link-bar>ul{
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      float: right;
+      padding-right: 10%;
+    }
+    .link-bar>ul>li{
+      font-family: 'Lato',sans-serif;
+      font-weight: 300;
+      color: aliceblue;
+    }
+    .manu-bar{
+      width: 100%;
+      box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+      position: relative;
+    }
+    .menu-bar>nav>img{
+      display: block;
+      width: 80px;
+      height: 70px;
+      position: relative;
+      left: 20%;
+      top: 3px;
+    }
+    .nav-menu{
+      height: 100%;
+    line-height: 60px;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    }
+    .menu-2{
+      display: none;
+    }
+    .menu-line{
+      display: block;
+      background: none;
+      height: auto;
+      position: relative;
+      z-index: 0;
+      width: 100%;
+      height: auto
+    }
+    .menu-br{
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      height: auto;
+      position: relative;
+      left: 37%;
+
+    }
+    .menu-b>a{
+      background-color: white;
+      height: 40px;
+      font-family: 'Lato',sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      color: black;
+    }
+    .home{
+      box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+      background-image: url('./images/main_big.png');
+      background-repeat: no-repeat;
+      height: auto;
+    }
+    .menu-ba{
+      display: none;
+    }
+    .header-page{
+      position: relative;
+      left: 15%;
+      top: 150px;
+    }
+    .main-program {
+      background-image: url("./images/pattern_bg.png");
+      background-repeat: repeat;
+      background-color: rgb(39, 42, 50);
+      margin-top: 550px;
+      width: 100%;
+      height: auto;
+    }
+    
+    .main-program > h1 {
+      font-weight: 400;
+      color: rgb(255, 255, 255);
+      font-family: "Lato", sans-serif;
+      padding-top: 40px;
+      position: relative;
+      text-align: center;
+      font-size: 24px;
+    }
+    
+    .main-program > img {
+      width: 7%;
+      position: relative;
+      left: 45%;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+    .cards {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      position: relative;
+      left: 12%;
+    }
+    
+    .car {
+      width: 16%;
+      display: grid;
+      grid-template-columns: auto;
+      text-align: center;
+      /* margin-left: 10px;
+      margin-right: 10px;
+      position: relative;
+      vertical-align: middle; */
+      background: rgba(255, 255, 255, 0.1);
+      height: auto;
+      padding-bottom: 10px;
+    }
+
+    
   }
