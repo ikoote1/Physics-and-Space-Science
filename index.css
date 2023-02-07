@@ -546,7 +546,7 @@ h4 {
     position: relative;
     left: 20%;
     top: 130px;
-    margin-top: -16px;
+    margin-top: -30px;
   }
 
   .hed > h2 {
@@ -659,6 +659,7 @@ h4 {
   }
 
   .hed8 {
+    display: block;
     height: auto;
     width: 20%;
     text-align: center;
