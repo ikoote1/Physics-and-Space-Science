@@ -95,7 +95,16 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 1000;
   font-size: 38px;
-  color: rgb(190, 79, 35);
+  background:
+    linear-gradient(
+      to left,
+      rgb(252, 94, 2),
+      rgb(190, 122, 33),
+      rgb(121, 26, 9),
+      red
+    );
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .conf {
@@ -172,7 +181,8 @@ body {
   left: 2%;
   right: 2%;
 }
-.hed8{
+
+.hed8 {
   display: none;
 }
 
@@ -429,17 +439,38 @@ h4 {
 }
 
 .pss1 {
-  background-image: url("./images/space-sumit-2.jpg");
+  background-image: url("./images/fun\ activities\ at\ work\ blog\ image-1.webp");
   background-repeat: no-repeat;
-  height: 300px;
-  width: 80%;
+  height: 250px;
+  width: auto;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
 }
 
 .pss2 {
-  background-image: url("./images/Space_Summit_2022_pillars.jpg");
+  background-image: url("./images/Untitled\ design\ \(1\)-Aug-02-2022-04-20-22-53-PM.webp");
   background-repeat: no-repeat;
-  height: 200px;
-  width: 80%;
+  height: 250px;
+  width: auto;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
+}
+
+.psss {
+  display: grid;
+  grid-template-columns: 80%;
+  gap: 5%;
+  padding: 5px;
+  position: relative;
+  left: 8%;
+}
+
+.pss1 > h3,
+.pss2 > h3 {
+  color: rgb(172, 104, 104);
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  position: relative;
+  top: 45px;
 }
 
 @media (min-width: 768px) {
@@ -728,9 +759,195 @@ h4 {
     height: 8.225em;
   }
 
+  .about {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .pre1 {
+    display: none;
+  }
+
+  .header-pag {
+    background-image: url("./images/about_bg_01.png");
+    background-repeat: no-repeat;
+    background-color: rgb(245, 244, 244);
+    width: auto;
+    height: auto;
+  }
+
+  .header-pag > div {
+    position: relative;
+    margin-top: -46px;
+    text-align: center;
+  }
+
+  .hed-2 > h2 {
+    display: none;
+  }
+
+  .hed-2 > h1 {
+    width: 60%;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    color: rgb(241, 11, 11);
+    position: relative;
+    left: 20%;
+  }
+
+  .conf2 {
+    width: 60%;
+    height: auto;
+    border: 4px solid rgb(247, 247, 248);
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 20%;
+  }
+
+  .conf2 > p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: rgb(78, 76, 76);
+    word-break: keep-all;
+    position: relative;
+    margin: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .header-pag > p > br {
+    display: none;
+  }
+
+  .header-pag > p,
+  h4 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-top: 30px;
+  }
+
+  .header-pag > h4 {
+    padding-top: 0;
+    margin-top: -7px;
+    font-size: 18px;
+    padding-bottom: 75px;
+    font-weight: bold;
+  }
+
+  .logo {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    width: 60%;
+    position: relative;
+    left: 20%;
+  }
+
+  .logo > h2 {
+    width: 90%;
+    position: relative;
+    left: 5%;
+  }
+
+  .logo > img {
+    width: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .logo > p {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    padding-bottom: 20px;
+  }
+
+  .logo2 {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border: 4px solid rgb(247, 247, 248);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    text-align: center;
+    left: 20%;
+    padding: 5px;
+    padding-left: 25%;
+  }
+
+  #logo {
+    width: 30%;
+  }
+
+  .past {
+    margin-top: 40px;
+    padding-top: 30px;
+    text-align: center;
+    border: 4px solid rgb(247, 247, 248);
+    background-color: rgb(252, 252, 252);
+  }
+
+  .past > img {
+    width: 3%;
+  }
+
+  .past > h2 {
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+  }
+
+  .past > p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    width: 70%;
+    padding-top: 10px;
+    position: relative;
+    left: 15%;
+  }
+
+  .psss {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 5%;
+    padding: 5px;
+    position: relative;
+    left: 18%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .pss1 {
+    height: 250px;
+    width: auto;
+  }
+
+  .pss1 > h3,
+  .pss2 > h3 {
+    color: rgb(172, 104, 104);
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+    top: 45px;
+  }
+
+  .pss2 {
+    height: 250px;
+    width: auto;
+  }
   .nav-menu-a > div > img {
     width: 70px;
     height: 50px;
     padding-bottom: 15px;
   }
+
+
+
 }
