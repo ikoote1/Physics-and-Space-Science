@@ -12,51 +12,51 @@
 //   navMenu.classList.toggle('active');
 // }));
 
-//DYNAMIC FEATURE SPEAKERS
+// DYNAMIC FEATURE SPEAKERS
 
 const modalsO = [
 
   {
-    nameF: 'ikoote Rasuli',
-    honorF: "am prem of nawanyago",
-    pictureF: "./images/fun activities at work blog image-1.webp",
+    nameF: 'Ikoote Rasuli',
+    honorF: 'He is computer Engineer in Uganda',
+    pictureF: './images/speaker3.jpg',
     textF:
-      "Am good at runing and playing",
+      'Have a lot of knowledge about space and space physics. He is the organizer of this conference',
   },
   {
-    nameF: 'ikoote Rasuli',
-    honorF: "am prem of nawanyago",
-    pictureF: "./images/fun activities at work blog image-1.webp",
+    nameF: 'Elon Musk',
+    honorF: 'CEO of six companies, i.e Twitter, Space-X, Tesla, Boeing',
+    pictureF: './images/speaker1.jpg',
     textF:
-      "Am good at runing and playing",
+      'Musk with his love for mars, He has explored and carried out a lot of research on space physic.',
   },
   {
-    nameF: 'ikoote Rasuli',
-    honorF: "am prem of nawanyago",
-    pictureF: "./images/fun activities at work blog image-1.webp",
+    nameF: 'Jeff bezos',
+    honorF: 'CEO of Blue Origin',
+    pictureF: './images/speaker2.jpg',
     textF:
-      "Am good at runing and playing",
+      'Bezos indicated that he founded Blue Origin to send customers into space by focusing on two objectives: to decrease the cost and to increase the safety of humanity in space',
   },
   {
-    nameF: 'ikoote Rasuli',
-    honorF: "am prem of nawanyago",
-    pictureF: "./images/fun activities at work blog image-1.webp",
+    nameF: 'Neil Armstrong',
+    honorF: 'American astronaut and aeronautical engineer',
+    pictureF: './images/speaker4.jpg',
     textF:
-      "Am good at runing and playing",
+      'Armstrong is a very well-known figure in the history of aerospace engineering. The first person to walk on the moon.',
   },
   {
-    nameF: 'ikoote Rasuli',
-    honorF: "am prem of nawanyago",
-    pictureF: "./images/fun activities at work blog image-1.webp",
+    nameF: 'Klapmeier brothers',
+    honorF: 'retired American aircraft designers and aviation entrepreneurs',
+    pictureF: './images/speaker5.png',
     textF:
-      "Am good at runing and playing",
+      'Together they founded the Cirrus Design Corporation in 1984. Cirrus was the first aircraft manufacturer to install a whole-plane parachute recovery system ',
   },
   {
-    nameF: 'ikoote Rasuli',
-    honorF: "am prem of nawanyago",
-    pictureF: "./images/fun activities at work blog image-1.webp",
+    nameF: ' Frank Wang',
+    honorF: 'He is the founder and CEO of the Shenzhen-based technology company DJI',
+    pictureF: './images/speaker7.jpg',
     textF:
-      "Am good at runing and playing",
+      'He showed an interest in flight and airborne devices from a young age, but received mediocre grades as a schoolchild.',
   },
 ];
 
@@ -65,7 +65,6 @@ const modalT = document.querySelector('.card-s');
 let modalCountT = 1;
 
 modalsO.forEach((o) => {
-
   modalT.innerHTML += `
   <div class="speakerr  modalT-${modalCountT}">
   <div class="sp-img">
