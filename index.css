@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Lato:wght@700;900&family=Poppins:wght@200&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Lato:wght@700&family=Poppins:wght@200&family=Roboto:wght@300&display=swap");
 
 .link-bar,
 .menu-a {
@@ -30,17 +30,6 @@
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
-/* .menu-line.active {
-  margin: 5px;
-  position: fixed;
-  background: rgb(240, 243, 243);
-  z-index: 2000;
-  width: 50%;
-  height: auto;
-  mix-blend-mode: normal;
-  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-} */
-
 .menu-line > img {
   padding: 20px;
   position: relative;
@@ -64,13 +53,14 @@
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  color: rgb(255, 249, 249);
+  color: rgb(133, 70, 70);
   position: relative;
   left: 5px;
+  text-decoration: none;
 }
 
 body {
-  color: rgb(51, 51, 51);
+  color: var(--black);
 }
 
 .home {
@@ -101,7 +91,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 28px;
-  color: rgb(239, 81, 60);
+  color: var(--red);
 }
 
 .hed > h1 {
@@ -112,10 +102,10 @@ body {
   background:
     linear-gradient(
       to left,
-      rgb(252, 94, 2),
+      var(--red),
       rgb(190, 122, 33),
       rgb(121, 26, 9),
-      red
+      var(--red)
     );
   -webkit-background-clip: text;
   color: transparent;
@@ -131,7 +121,7 @@ body {
 }
 
 .conf > p {
-  color: rgb(51, 51, 51);
+  color: var(--black);
   word-break: keep-all;
   position: relative;
   margin: 20px;
@@ -144,7 +134,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 35px;
   font-weight: 700;
-  color: rgb(87, 87, 87);
+  color: var(--black);
 }
 
 .dat > p {
@@ -155,7 +145,7 @@ body {
 .main-program {
   background-image: url("./images/pattern_bg.png");
   background-repeat: repeat;
-  background-color: rgb(39, 42, 50);
+  background-color: var(--black);
   width: 100%;
   margin-top: -16px;
   height: auto;
@@ -218,7 +208,7 @@ body {
   width: 100%;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  color: rgb(239, 81, 60);
+  color: var(--red);
 }
 
 .car > p {
@@ -236,7 +226,7 @@ body {
   width: 80%;
   text-align: center;
   margin-top: 100px;
-  background-color: rgb(239, 81, 60);
+  background-color: var(--red);
   position: relative;
   bottom: 50px;
   left: 10%;
@@ -278,7 +268,7 @@ body {
 }
 
 .partners > ul > li {
-  color: black;
+  color: var(--grey);
   font-size: 27px;
 }
 
@@ -432,7 +422,7 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 1000;
   font-size: 40px;
-  color: rgb(190, 79, 35);
+  color: var(--red);
 }
 
 .conf2 {
@@ -448,7 +438,7 @@ body {
 .conf2 > p {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  color: rgb(51, 51, 51);
+  color: var(--black);
   word-break: keep-all;
   position: relative;
   margin: 15px;
@@ -568,7 +558,7 @@ h4 {
 
 .pss1 > h3,
 .pss2 > h3 {
-  color: rgb(172, 104, 104);
+  color: var(--red);
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 300;
@@ -580,7 +570,7 @@ h4 {
   body {
     margin: 0;
     padding: 0;
-    color: rgb(51, 51, 51);
+    color: var(--black);
   }
 
   .nav-menu,
@@ -591,7 +581,7 @@ h4 {
   .link-bar {
     display: block;
     height: 40px;
-    background-color: rgb(62, 62, 62);
+    background-color: var(--black);
     text-align: right;
     line-height: 15px;
     position: relative;
@@ -656,9 +646,14 @@ h4 {
     height: 40px;
     width: 130px;
     background-color: white;
-    border-color: rgb(245, 74, 7);
-    color: rgb(245, 74, 7);
+    border-color: var(--red);
+    color: var(--red);
     margin-bottom: 20px;
+    border-width: thick;
+  }
+
+  a:link {
+    text-decoration: none;
   }
 
   .nav-a > a {
@@ -667,6 +662,7 @@ h4 {
     font-size: 15px;
     padding-top: 10px;
     vertical-align: middle;
+    color: var(--black);
   }
 
   #header-pag {
@@ -714,7 +710,7 @@ h4 {
   .dat > h2 {
     font-size: 38px;
     font-weight: 1000;
-    color: rgb(19, 17, 17);
+    color: var(--black);
     padding-top: 15px;
   }
 
@@ -728,7 +724,7 @@ h4 {
   .main-program {
     background-image: url("./images/pattern_bg.png");
     background-repeat: repeat;
-    background-color: rgb(39, 42, 50);
+    background-color: var(--black);
     width: 100%;
     height: auto;
   }
@@ -783,7 +779,7 @@ h4 {
 
   .car > p {
     word-break: keep-all;
-    color: rgb(199, 190, 190);
+    color: var(--grey);
     font-size: 0.753em;
     font-weight: 300;
     width: 80%;
@@ -809,7 +805,7 @@ h4 {
   }
 
   .hed8 > a {
-    color: rgb(216, 212, 212);
+    color: var(--grey);
     font-family: "Lato", sans-serif;
     font-size: 20px;
   }
@@ -820,7 +816,7 @@ h4 {
   }
 
   .partners > h2 {
-    color: rgb(150, 142, 142);
+    color: var(--grey);
     font-size: 28px;
   }
 
@@ -834,7 +830,7 @@ h4 {
   }
 
   .partners > ul > li {
-    color: rgb(138, 132, 132);
+    color: var(--grey);
     font-size: 27px;
     font-weight: 1000;
   }
@@ -891,7 +887,7 @@ h4 {
     background-color: rgb(255, 255, 255);
   }
 
-  .pre1 {
+  .menu-ba {
     display: none;
   }
 
@@ -920,7 +916,7 @@ h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 800;
     font-size: 60px;
-    color: rgb(241, 11, 11);
+    color: var(--red);
     position: relative;
     left: 20%;
   }
@@ -937,7 +933,7 @@ h4 {
   .conf2 > p {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    color: rgb(78, 76, 76);
+    color: var(--black);
     word-break: keep-all;
     position: relative;
     margin: 15px;
@@ -1058,7 +1054,7 @@ h4 {
 
   .pss1 > h3,
   .pss2 > h3 {
-    color: rgb(172, 104, 104);
+    color: var(--red);
     font-family: 'Lato', sans-serif;
     font-size: 25px;
     font-weight: 300;
