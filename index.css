@@ -5,7 +5,14 @@
   display: none;
 }
 
+:root {
+  --red: #ec5242;
+  --black: #272a31;
+  --grey: #d3d3d3;
+}
+
 .menu-line {
+  display: none;
   margin: 5px;
   position: fixed;
   background: rgb(240, 243, 243);
@@ -16,7 +23,7 @@
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
 }
 
-.menu-line.active {
+/* .menu-line.active {
   margin: 5px;
   position: fixed;
   background: rgb(240, 243, 243);
@@ -25,7 +32,7 @@
   height: auto;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-}
+} */
 
 .menu-line > img {
   padding: 20px;
@@ -291,6 +298,95 @@ body {
 
 .footer > img {
   height: 7.225em;
+}
+
+.speakers {
+  width: 90%;
+  height: auto;
+  position: relative;
+  left: 8%;
+}
+
+.speaker {
+  width: auto;
+  max-width: 768px;
+  height: auto;
+  text-align: center;
+}
+
+.card-s {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 15px;
+}
+
+.speaker > h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: var(--black);
+  padding-top: 80px;
+  margin-bottom: 0;
+}
+
+.speaker > img {
+  width: 6%;
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+.speakerr {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.sp-img {
+  width: 160px;
+  height: 160px;
+  background-image: url("./images/istockphoto.jpg");
+  background-repeat: no-repeat;
+}
+
+.sp-2 {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  bottom: -20%;
+}
+
+.desc {
+  width: 50%;
+  position: relative;
+  text-align: left;
+}
+
+.desc > h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.desc-p1 {
+  color: var(--red);
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: -15px;
+  font-style: italic;
+}
+
+.desc > img {
+  width: 25px;
+  height: 2px;
+}
+
+.desc-p2 {
+  color: var(--black);
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
 }
 
 .about {
@@ -566,6 +662,10 @@ h4 {
     vertical-align: middle;
   }
 
+  #header-pag {
+    display: block;
+  }
+
   .header-page {
     background-image: url('./images/main_big.png');
     background-repeat: no-repeat;
@@ -759,6 +859,26 @@ h4 {
     height: 8.225em;
   }
 
+  .card-s {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    gap: 10px;
+    position: relative;
+    left: 15%;
+  }
+
+  .speaker {
+    width: auto;
+    max-width: none;
+    height: auto;
+    text-align: center;
+  }
+  .speaker > img {
+    width: 3%;
+    margin-top: 15px;
+    margin-bottom: 80px;
+  }
+
   .about {
     background-color: rgb(255, 255, 255);
   }
@@ -942,12 +1062,10 @@ h4 {
     height: 250px;
     width: auto;
   }
+
   .nav-menu-a > div > img {
     width: 70px;
     height: 50px;
     padding-bottom: 15px;
   }
-
-
-
 }
