@@ -11,8 +11,15 @@
   --grey: #d3d3d3;
 }
 
-.menu-line {
+.nav-menu {
   display: none;
+}
+
+.nav-display {
+  display: block;
+}
+
+.menu-line {
   margin: 5px;
   position: fixed;
   background: rgb(240, 243, 243);
@@ -873,6 +880,7 @@ h4 {
     height: auto;
     text-align: center;
   }
+
   .speaker > img {
     width: 3%;
     margin-top: 15px;
@@ -1063,7 +1071,7 @@ h4 {
     width: auto;
   }
 
-  .nav-menu-a > div > img {
+  .nav-menu-a > div > a > img {
     width: 70px;
     height: 50px;
     padding-bottom: 15px;

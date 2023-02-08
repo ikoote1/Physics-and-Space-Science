@@ -1,16 +1,17 @@
-// const ham = document.querySelector('.menu-ba');
-// const x = document.querySelector('.menu-2');
-// const navMenu = document.querySelector('.menu-line');
+// MENU BAR
+const navMenu = document.querySelector('.nav-menu');
+const y = document.querySelector('.menu-ba');
+const navMen = document.querySelector('.menu-2');
 
-// ham.addEventListener('click', function() {
-//   navMenu.classList.toggle('active');
-// });
-// x.addEventListener('click', () => {
-//   navMenu.classList.toggle('active');
-// });
-// document.querySelectorAll('.menu-br').forEach((n) => n.addEventListener('click', () => {
-//   navMenu.classList.toggle('active');
-// }));
+y.addEventListener('click', () => {
+  navMenu.classList.toggle('nav-display');
+});
+navMen.addEventListener('click', () => {
+  navMenu.classList.toggle('nav-display');
+});
+document.querySelectorAll('.menu-br').forEach((n) => n.addEventListener('click', () => {
+  navMenu.classList.toggle('nav-display');
+}));
 
 // DYNAMIC FEATURE SPEAKERS
 
