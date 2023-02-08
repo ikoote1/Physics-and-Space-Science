@@ -48,23 +48,22 @@ This project was built using the following materials and languages below;
 ### Key Features <a name="key-features"></a>
 
 - **Description**
-  ##Home page: 
-  This contains the;
+- *Home page:* 
+  >This contains the;
   - Web title.
   - Contacts.
   - Date
   - Program
   - Speakers
   - Menu
-  ##About page:
-  This contains the;
+ - *About page:*
+  >This contains the;
   - Menu
   - Title
   - Description
   - Previous meetings.
 - ****
 - **Contacts**
- ##Contacts.
   - ikootepreim@gmail.com
   - @ikootepreim
   - LinkedIn https://www.linkedin.com/in/ikoote-rasuli-479545246/ 
@@ -88,8 +87,6 @@ This project was built using the following materials and languages below;
 -**You are allowed to clone this project**
 
 To get a local copy up and running, follow these steps.
-
-### Prerequisites
 
 In order to run this project you need:
 
@@ -146,7 +143,7 @@ In the feature am planning;
 - [ ] **To include the contribution page**
 - [ ] **To allow comments into the page**
 - [ ] **To clone zoom into the website**
-  - [ ] **To add speaker videos**
+- [ ] **To add speaker videos**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
