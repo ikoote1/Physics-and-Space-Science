@@ -346,8 +346,8 @@ body {
 }
 
 .sp-2 {
-  width: 120px;
-  height: 140px;
+  width: 130px;
+  height: 120px;
   position: relative;
   bottom: -15%;
 }
@@ -629,25 +629,26 @@ h4 {
   }
 
   .nav-menu-a {
-    width: 80%;
+    width: 100%;
     height: 79px;
     display: flex;
     flex-direction: row;
-    gap: 30%;
+    gap: 10%;
     vertical-align: middle;
+    position: relative;
+    left: 5%;
+    right: 5%;
   }
 
-  .nav-menu-a > div {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 20%;
+  .logs {
+    width: 15%;
   }
 
   .nav-a {
+    width: 65%;
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 5%;
     vertical-align: middle;
   }
 
@@ -1087,5 +1088,31 @@ h4 {
     width: 70px;
     height: 50px;
     padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .nav-menu-a {
+    width: 100%;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    vertical-align: middle;
+    position: relative;
+    left: 10%;
+    right: 10%;
+  }
+
+  .logs {
+    width: 10%;
+  }
+
+  .nav-a {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    vertical-align: middle;
   }
 }

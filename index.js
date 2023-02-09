@@ -55,7 +55,7 @@ const modalsO = [
   {
     nameF: ' Frank Wang',
     honorF: 'He is the founder and CEO of the Shenzhen-based technology company DJI',
-    pictureF: './images/speaker7.jpg',
+    pictureF: './images/downloa.jpg',
     textF:
       'He showed an interest in flight and airborne devices from a young age, but received mediocre grades as a schoolchild.',
   },
