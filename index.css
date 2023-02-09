@@ -532,15 +532,16 @@ h4 {
 }
 
 .pss1 {
-  background-image: url("./images/fun\ activities\ at\ work\ blog\ image-1.webp");
+  background-image: url("./images/EarlyCareerHero.jpeg");
   background-repeat: no-repeat;
+  background-color: var(--black);
   height: 250px;
   width: auto;
   box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%);
 }
 
 .pss2 {
-  background-image: url("./images/Untitled\ design\ \(1\)-Aug-02-2022-04-20-22-53-PM.webp");
+  background-image: url("./images/photo-1574389943223-5e4d70275d41.jpg");
   background-repeat: no-repeat;
   height: 250px;
   width: auto;
@@ -558,7 +559,7 @@ h4 {
 
 .pss1 > h3,
 .pss2 > h3 {
-  color: var(--red);
+  color: white;
   font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 300;
@@ -1054,7 +1055,7 @@ h4 {
 
   .pss1 > h3,
   .pss2 > h3 {
-    color: var(--red);
+    color: white;
     font-family: 'Lato', sans-serif;
     font-size: 25px;
     font-weight: 300;
