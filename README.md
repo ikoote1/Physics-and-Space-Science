@@ -4,22 +4,31 @@ Physics and space science conference website designed to promote research activi
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [Physics-and-Space-Science](#physics-and-space-science)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 About the Project ](#-about-the-project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Git ](#git-)
+    - [Vs code](#vs-code)
+    - [Javascript ](#javascript-)
+    - [Adobe ](#adobe-)
+    - [HTML](#html)
+    - [CSS ](#css-)
+    - [Key Features ](#key-features-)
+  - [Video Describing of the project](#video-describing-of-the-project)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -168,7 +177,7 @@ If you like this project , I will be very grad to help you with any issue.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
  > I would like to thank Microverse and its team.
- > I would like to thank Creative Commons license of the design for helping me with designs for the project.
+ > I would like to thank <a href = "https://www.behance.net/adagio07"> Cindy Shin</a> for authoring the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">design</a> I used in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
