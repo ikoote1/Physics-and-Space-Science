@@ -176,8 +176,8 @@ If you like this project , I will be very grad to help you with any issue.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- > I would like to thank Microverse and its team.
- > I would like to thank <a href = "https://www.behance.net/adagio07"> Cindy Shin</a> for authoring the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">design</a> I used in this project.
+ - I would like to thank Microverse and its team.
+ - I would like to thank <a href = "https://www.behance.net/adagio07"> Cindy Shin</a> for authoring the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">design</a> I used in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
